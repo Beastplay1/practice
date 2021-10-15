@@ -1,0 +1,44 @@
+html,body{
+	box-sizing: border-box;
+}
+
+*,*::after,*::before{
+	margin: 0;
+	padding: 0;
+}
+
+.lift{
+	width: 150px;
+	height: 200px;
+	background: url(../img/lift.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.main{
+	display: flex;
+	justify-content: space-around;
+	margin-top: 15em;
+}
+
+.lift-button{
+	width: 15px;
+	height: 15px;
+	background: red;
+	position: relative;
+	top: 50%;
+	margin-left: 10px;
+}
+
+.man{
+	width: 100px;
+	background: url(../img/man.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.man-button{
+	width: 15px;
+	height: 15px;
+	background: red;
+}
